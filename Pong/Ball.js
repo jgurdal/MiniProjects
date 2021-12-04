@@ -55,9 +55,9 @@ export default class Ball {
         }
 
         //Just for testing by stopping left and right
-        if (rect.left >= window.innerHeight || rect.right <= 0) {
-            this.direction.x *= -1;
-        }
+        // if (rect.left >= window.innerHeight || rect.right <= 0) {
+        //     this.direction.x *= -1;
+        // }
     }
 }
 
