@@ -13,7 +13,7 @@ function update(time) {
     if (lastTime != null) {
         // Update code
         const delta = time - lastTime
-        ball.update(delta)
+        ball.update(delta, [playerPaddle.rect(), computerPaddle.rect()])
         computerPaddle.update(delta, ball.y)
 
         if (isLose()) {
