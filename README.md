@@ -1,2 +1,2 @@
 # MiniProjects
-Collection of small projects
+Collection of small projects that I am building to practice.
