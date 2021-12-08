@@ -1,0 +1,44 @@
+body {
+    height: 100vh;
+    margin: 0;
+    background: black url('./images/Avatar-the-last-Airbender-wallpaper-71.png');
+    color: white;
+    font-family: 'Poppins';
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    height: 100vh;
+}
+
+.feature {
+    display: grid;
+    height: 100vh;
+    place-items: center;
+    overflow: hidden;
+    position: relative;
+    border-right: 1px solid rgba(255,255,255,0.1);
+
+}
+.h3 {
+    font-size: 1.3rem;
+}
+
+.content {
+    width: 70%;
+
+}
+.feature-img{
+    position: absolute;
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0;
+    transform: translate()
+}
+
+a{
+    background: 
+}
